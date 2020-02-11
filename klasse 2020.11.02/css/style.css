@@ -1,3 +1,20 @@
 /**
  * fil: css/style.css
  **/
+
+
+body {
+    background-color: pink; /*bg farve */
+    color: white; /* txt farve */
+    background-image: url(../images/DSC07760.JPG); /*bg billede */
+    background-size: cover; /* bg  str på billede*/
+}
+
+p {
+    color: white; /*txt farve afsnit */
+    background-color: rosybrown; /* Bg farve afsnit */
+    width: 40%; /* hvor meget fylder det på siden */
+    font-size: 150%; /* str. teksten */    
+    font-family: 'Zhi Mang Xing', cursive; /* skrift type på afsnit*/
+}
+

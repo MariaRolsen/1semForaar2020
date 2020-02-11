@@ -1,21 +1,97 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="da">
 
 <head>
 	<meta charset="utf-8">
-	<title>Example Title</title>
-	<meta name="author" content="Your Name">
-	<meta name="description" content="Example description">
+	<title>Css intro</title>
+	<meta name="author" content="Maria">
+	<meta name="description" content="Css bla bla">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 	<link rel="stylesheet" href="css/style.css">
+    
 	<link rel="icon" type="image/x-icon" href=""/>
+    
+    <!-- ændre til runde img -->
+    <style>
+img {
+  border-radius: 50%;
+}
+ 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #3ff;
+}    
+        
+</style>
+    
 </head>
 
 <body>
 	<header>
-	    <h1>maria</h1>
+	    <h1>11.02.2020</h1>
 	</header>
-	<main></main>
+    
+     <!-- dette er en menu -->
+    <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+    
+   
+    
+    
+	<main>
+    
+    <p id="a">
+        ”Bag enhver mand står en kvinde med himmelvendte øjne”.
+        </p>
+        
+        <p class="b">
+        "Tag ikke livet alt for alvorligt. Du vil aldrig komme ud af det i live."
+        </p>
+        
+        <p class=c>
+        ”Under de mest visne toppe, findes de største gulerødder – sagt om skaldede mænd”.
+        </p>
+        
+         <!-- dette er billeder -->
+        <section>
+        <div id="gallerikasse">
+            <img src="images/sten.JPG" alt="sten" class="galleri">
+            <img src="images/sten.JPG" alt="sten" class="galleri">
+            <img src="images/sten.JPG" alt="sten" class="galleri">
+            <img src="images/sten.JPG" alt="sten" class="galleri">
+            <img src="images/sten.JPG" alt="sten" class="galleri">
+            
+            
+            </div>
+        
+        </section>
+        
+    </main>
 	<footer></footer>
 </body>
 
